@@ -309,6 +309,7 @@ const typeDefs = `#graphql
     type Category {
         name: String!
         id: ID!
+        products: [Product!]!
     }
 `;
 
